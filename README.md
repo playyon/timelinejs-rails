@@ -1,6 +1,6 @@
 # Timelinejs::Rails
 
-TODO: Write a gem description
+This project "Gemifies" the "TimelineJS" project for Rails.
 
 ## Installation
 
@@ -16,9 +16,11 @@ Or install it yourself as:
 
     $ gem install timelinejs-rails
 
-## Usage
+## Update from TimelineJS
 
-TODO: Write usage instructions here
+To update the javascript and CSS files from TimelineJS:
+1. Checkout TimelineJS in the same parent directory as this repo.
+2. run 'rake refresh_assets'
 
 ## Contributing
 

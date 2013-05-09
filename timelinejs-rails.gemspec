@@ -10,10 +10,11 @@ Gem::Specification.new do |gem|
   gem.email         = ["donleyp@playyon.com"]
   gem.description   = %q{Gemifies the TimelineJS project}
   gem.summary       = %q{Gemifies the TimelineJS project}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/playyon/timelinejs-rails"
 
   gem.files         = Dir["{lib,vendor}/**/*"] + ["LICENSE.txt", "README.md"]
   # gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   # gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
+  gem.add_dependency "railties", "~> 3.1"
 end
