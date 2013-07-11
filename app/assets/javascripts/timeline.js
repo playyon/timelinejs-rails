@@ -7492,7 +7492,7 @@ if(typeof VMM != 'undefined' && typeof VMM.Timeline == 'undefined') {
 				trace("HAS STARTPAGE");
 				trace(startpage_date);
 				
-				if (startpage_date && startpage_date < _dates[0].startdate) {
+				if (startpage_date && (_dates.length == 0 || startpage_date < _dates[0].startdate)) {
 					_date.startdate = new Date(startpage_date);
 				} else {
 					td = _dates[0].startdate;
