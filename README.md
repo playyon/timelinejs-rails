@@ -19,6 +19,7 @@ Or install it yourself as:
 ## Update from TimelineJS
 
 To update the javascript and CSS files from TimelineJS:
+
 1. Checkout TimelineJS in the same parent directory as this repo.
 2. run 'rake refresh_assets'
 
